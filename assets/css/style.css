@@ -1,0 +1,26 @@
+body {
+    font-family: sans-serif;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#nav-bar {
+    display: flex;
+}
+
+#nav-bar p {
+    margin-left: 20px;
+    
+}
+
+@media screen and (max-width: 768px){
+    header {
+        flex-direction: column;
+    }
+
+
+}
