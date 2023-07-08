@@ -18,6 +18,10 @@ header {
     
 }
 
+main {
+    
+}
+
 #subtitle {
     background-color: orange;
 }
@@ -32,6 +36,13 @@ header {
 
 #contact-me {
     background-color: lightgreen;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#contact-me p {
+    margin-left: 20px;
 }
 
 @media screen and (max-width: 768px){
