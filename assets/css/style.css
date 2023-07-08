@@ -3,6 +3,7 @@ body {
 }
 
 header {
+    background-color: cyan;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -15,6 +16,22 @@ header {
 #nav-bar p {
     margin-left: 20px;
     
+}
+
+#subtitle {
+    background-color: orange;
+}
+
+#about-me {
+    background-color: lightblue;
+}
+
+#work {
+    background-color: blueviolet;
+}
+
+#contact-me {
+    background-color: lightgreen;
 }
 
 @media screen and (max-width: 768px){
