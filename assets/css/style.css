@@ -45,22 +45,39 @@ main {
     background-color: aqua;
 }
 
-#about-me {
+.about-me {
     background-color: lightblue;
+    display: flex;
+    margin-left: 10%;
 }
 
-#work {
+.about-me aside {
+    width: 70%;
+    padding-left: 20px;
+    margin-left: 20px;
+    float: right;
+    background-color: lightgray;
+    display: block;
+}
+
+.work {
     background-color: blueviolet;
+    display: flex;
+    margin-left: 10%;
 }
 
-#contact-me {
+.contact-me {
     background-color: lightgreen;
     display: flex;
-    justify-content: space-between;
-    align-items: center;
+    margin-left: 10%;
 }
 
-#contact-me p {
+.contact-me aside {
+    display: flex;
+    justify-content: space-between;
+}
+
+.contact-me p {
     margin-left: 20px;
 }
 
