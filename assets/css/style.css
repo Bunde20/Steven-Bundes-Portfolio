@@ -3,15 +3,21 @@ body {
 }
 
 header {
-    background-color: cyan;
+    background-color: rgb(45, 43, 43);
     display: flex;
     justify-content: space-between;
     align-items: center;
+    color: cyan;
 }
 
 #nav-bar {
     display: flex;
     padding: 20px;
+}
+
+#nav-bar a {
+    text-decoration: none;
+    color: cyan;
 }
 
 #nav-bar ul {
@@ -22,8 +28,8 @@ header {
 #nav-bar li {
     display: inline-block;
     margin-left: 20px;
-    text-decoration: underline;
-    
+    text-decoration: solid underline cyan 3px;
+    color: cyan;
 }
 
 main {
