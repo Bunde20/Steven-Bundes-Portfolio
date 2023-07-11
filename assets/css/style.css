@@ -93,7 +93,7 @@ main {
 }
 
 #large-image {
-    height: 400px;
+    height: 500px;
     object-fit: cover;
     object-position: top;
 }
@@ -102,7 +102,7 @@ main {
     flex-basis: 50%;
     width: 400px;
     height: 200px;
-    object-fit: scale-down;
+    object-fit: cover;
 }
 
 @media only screen and (min-width: 640px) {
