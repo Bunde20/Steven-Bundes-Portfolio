@@ -63,7 +63,7 @@ main {
 
 /* About me section */
 #about-me {
-    background-color: lightblue;
+    /* background-color: lightblue; */
     display: flex;
     margin-left: 10%;
     margin-top: 3%;
@@ -88,9 +88,9 @@ main {
 .image-grid {
     display: flex;
     flex-wrap: wrap;
-    width: 70%;
-    margin: 0 auto;
-    justify-content: center;
+    width: 82%;
+    /* justify-content: center; */
+    margin-left: 20px;
 }
 
 .image-grid img {
@@ -135,7 +135,7 @@ main {
     }
 }
 
-.large-image-subtitle {
+/* .large-image-subtitle {
     position: absolute;
     height: 50px;
     width: 150px;
@@ -143,8 +143,7 @@ main {
     left: 460px;
     background-color: cyan;
     text-align: center;
-
-}
+} */
 
 
 
@@ -163,10 +162,12 @@ main {
 
 #work aside {
     float: left;
-    width: 10%;
+    width: 6%;
+    height: 1000px;
+    text-align: right;
     margin-left: 10%;
     padding-right: 20px;
-    margin-right: 20px;
+    /* margin-right: 10px; */
     background-color: yellow;
     display: block;
     border-right: 5px solid black;
