@@ -10,6 +10,10 @@ header {
     color: cyan;
 }
 
+h1 {
+    font-size: xx-large;
+}
+
 #nav-bar {
     display: flex;
     padding: 20px;
@@ -63,14 +67,17 @@ main {
     display: flex;
     margin-left: 10%;
     margin-top: 3%;
+    width: 84%;
 }
 
 #about-me aside {
     float: left;
     width: 11.1%;
+    height: 190px;
     padding-right: 20px;
     margin-right: 20px;
     margin-bottom: 80px;
+    text-align: right;
     background-color: lightgray;
     display: block;
     border-right: 5px solid black;
