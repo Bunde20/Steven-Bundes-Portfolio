@@ -67,9 +67,10 @@ main {
 
 #about-me aside {
     float: left;
-    width: 30%;
+    width: 11.1%;
     padding-right: 20px;
     margin-right: 20px;
+    margin-bottom: 80px;
     background-color: lightgray;
     display: block;
     border-right: 5px solid black;
@@ -101,7 +102,7 @@ main {
     margin-bottom: 10px;
 }
 
-#small-img {
+#small-image {
     flex-basis: 45%;
     width: 400px;
     height: 200px;
@@ -114,7 +115,7 @@ main {
     border-radius: 10px;
 }
 
-#small-img:hover {
+#small-image:hover {
     opacity: 1;
     border-color: rgba(45, 43, 43, 0.926);
     border-radius: 10px;
@@ -125,6 +126,17 @@ main {
     .grid-image {
         flex-basis: 50%
     }
+}
+
+.large-image-subtitle {
+    position: absolute;
+    height: 50px;
+    width: 150px;
+    top: 830px;
+    left: 460px;
+    background-color: cyan;
+    text-align: center;
+
 }
 
 
