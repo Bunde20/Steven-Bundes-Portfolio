@@ -54,7 +54,7 @@ main {
     position: absolute;
     bottom: 8px;
     right: 16px;
-    background-color: aqua;
+    background-color: cyan;
 }
 
 /* About me section */
@@ -87,23 +87,34 @@ main {
 
 .image-grid img {
     display: block;
-    flex-basis: 100%;
-    padding: 10px;
+    flex-basis: 92%;
     box-sizing: border-box;
+    border: 8px solid cyan;
+    margin: 10px;
 }
 
 #large-image {
     height: 500px;
     object-fit: cover;
     object-position: top;
+    margin-bottom: 10px;
 }
 
 #small-img {
-    flex-basis: 50%;
+    flex-basis: 45%;
     width: 400px;
     height: 200px;
     object-fit: cover;
 }
+
+#large-image:hover {
+    opacity: .5;
+}
+
+#small-img:hover {
+    opacity: .5;
+}
+
 
 @media only screen and (min-width: 640px) {
     .grid-image {
