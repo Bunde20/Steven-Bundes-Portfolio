@@ -4,20 +4,37 @@ body {
  /* Top of page header */
 header {
     background-color: rgba(45, 43, 43, 0.926);
+    height: 70px;
     display: flex;
     justify-content: space-between;
     align-items: center;
     color: cyan;
+    position: relative;
+}
+
+header h1 {
+    margin: 10px;
+    margin-left: 50px;
 }
 
 h1 {
     font-size: xx-large;
     margin-top: 0;
+    color: rgba(45, 43, 43, 0.926);
+}
+
+.h1-text-container {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    bottom: 10px;
+    background-color: cyan;
 }
 
 #nav-bar {
     display: flex;
     padding: 20px;
+    width: 100%;
 }
 
 #nav-bar a {
@@ -28,25 +45,23 @@ h1 {
 #nav-bar ul {
     margin-left: 20px;
     list-style-type: none;
+    width: 100%;
 }
 
 #nav-bar li {
-    display: inline-block;
     margin-left: 20px;
     text-decoration: solid underline cyan 3px;
     color: cyan;
+    float: right;
 }
 
-main {
-    
-}
 /* Subtitle below header */
 #subtitle-container {
     width: 100%;
     height: 200px;
     position: relative;
     text-align: center;
-    color: black;
+    color: rgba(45, 43, 43, 0.926);;
 }
 
 #subtitle-container img {
@@ -80,7 +95,7 @@ main {
     margin-bottom: 60px;
     text-align: right;
     display: block;
-    border-right: 5px solid black;
+    border-right: 5px solid rgba(45, 43, 43, 0.926);;
     min-width: 7em;
     max-width: 7em;
 }
@@ -161,7 +176,7 @@ main {
     padding-right: 20px;
     margin-top: 10px;
     display: block;
-    border-right: 5px solid black;
+    border-right: 5px solid rgba(45, 43, 43, 0.926);
     min-width: 7em;
     max-width: 7em;
 } 
@@ -197,7 +212,7 @@ footer aside {
     margin-right: 20px;
     text-align: right;
     display: block;
-    border-right: 5px solid black;
+    border-right: 5px solid rgba(45, 43, 43, 0.926);;
     min-width: 7em;
     max-width: 7em;
 }
