@@ -35,6 +35,7 @@ h1 {
     display: flex;
     padding: 20px;
     width: 100%;
+    margin-left: 60%;
 }
 
 #nav-bar a {
@@ -43,16 +44,16 @@ h1 {
 }
 
 #nav-bar ul {
-    margin-left: 20px;
     list-style-type: none;
     width: 100%;
+    margin-left: 35%;
 }
 
 #nav-bar li {
     margin-left: 20px;
     text-decoration: solid underline cyan 3px;
     color: cyan;
-    float: right;
+    float: left;
 }
 
 /* Subtitle below header */
