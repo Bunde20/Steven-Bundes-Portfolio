@@ -305,6 +305,7 @@ footer aside {
     #contact-me li, #contact-me li a {
         color: cyan;
         margin-left: 1em;
+        margin-right: 1em;
     }
 
     #contact-me {
