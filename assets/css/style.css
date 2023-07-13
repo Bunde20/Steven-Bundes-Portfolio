@@ -169,7 +169,7 @@ h2 {
 
 #large-image {
     height: 500px;
-    width: 93%;
+    width: 92%;
     /* width: 1120px; */
     object-fit: cover;
     object-position: top;
@@ -260,10 +260,22 @@ footer aside {
 
 @media screen and (max-width: 768px){
     #about-me aside,
-    #work aside,
-    footer aside {
+    #work aside, .h1-text-container,
+    footer aside  {
         display: none;
     }
+
+    #nav-bar {
+        min-width: 7 em;
+        max-width: 7 em;
+        display: flex;
+    }
+
+    #nav-bar ul {
+        margin-left: 0;
+        justify-content: center;
+    }
+    
 
     .image-grid img {
         flex-basis: 50%;
@@ -280,5 +292,10 @@ footer aside {
 
     #about-me p {
         width: 105%;
+    }
+
+    footer ul {
+        flex-wrap: wrap;
+        flex-basis: 50%;
     }
 }
