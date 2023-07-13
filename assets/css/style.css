@@ -269,10 +269,12 @@ footer aside {
         min-width: 7 em;
         max-width: 7 em;
         display: flex;
+        background-color:  rgba(45, 43, 43, 0.926);;
     }
 
     #nav-bar ul {
         margin-left: 0;
+        padding: 0;
         justify-content: center;
     }
     
@@ -294,8 +296,28 @@ footer aside {
         width: 105%;
     }
 
-    footer ul {
-        flex-wrap: wrap;
-        flex-basis: 50%;
+    footer {
+        background-color:  rgba(45, 43, 43, 0.926);
+        margin: 0;
+        width: 100%;
     }
+
+    #contact-me li, #contact-me li a {
+        color: cyan;
+        margin-left: 1em;
+    }
+
+    #contact-me {
+        min-width: 7 em;
+        max-width: 7 em;
+        display: flex;
+        justify-content: center;
+        background-color:  rgba(45, 43, 43, 0.926);;
+    }
+
+    #contact-me ul {
+        margin-right: 0;
+        padding: 0;
+    }
+    
 }
