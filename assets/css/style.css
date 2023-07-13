@@ -5,7 +5,9 @@ body {
 }
  /* Top of page header */
 header {
-    background-color:  rgba(45, 43, 43, 0.926);
+    /* background-color:  rgba(45, 43, 43, 0.926); */
+    background-image: url(/assets/images/background\ 2.jpg);
+    border-top: 10px solid cyan;
     height: 70px;
     display: flex;
     justify-content: space-between;
@@ -16,7 +18,7 @@ header {
 
 header h1 {
     margin: 10px;
-    margin-left: 50px;
+    margin-left: 25px;
 }
 
 h1 {
@@ -29,7 +31,7 @@ h1 {
     position: absolute;
     top: 0px;
     left: 0px;
-    bottom: 10px;
+    bottom: 8px;
     background-color: cyan;
 }
 
@@ -52,6 +54,11 @@ h1 {
     display: inline;
 }
 
+#nav-bar li a:hover {
+    color: rgba(45, 43, 43, 0.926);
+    font-weight: bolder;
+}
+
 #nav-bar li {
     margin-left: 30px;
     text-decoration: solid underline cyan 3px;
@@ -65,7 +72,8 @@ h1 {
     height: 200px;
     position: relative;
     text-align: center;
-    color: rgba(45, 43, 43, 0.926);;
+    color: rgba(45, 43, 43, 0.926);
+    border-bottom: 10px solid cyan;
 }
 
 #subtitle-container img {
@@ -233,6 +241,12 @@ footer aside {
 
 #contact-me li a {
     color:  rgba(45, 43, 43, 0.926);
+    text-decoration: none;
+}
+
+#contact-me li a:hover {
+    color: cyan;
+    font-weight: bolder;
 }
 
 /* Media query for reactivity */
