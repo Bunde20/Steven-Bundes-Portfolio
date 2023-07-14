@@ -17,7 +17,7 @@
     - As the width is decreased, the page will remove and refocus different aspects of the page for efficient navigation.
 
 ## Usage:
-
+![Project Template](https://github.com/Bunde20/Steven-Bundes-Portfolio/assets/135177057/88a6a0f6-b617-4e79-9ef8-379da4a451f6)
 
 ## Deployed Application Link:
 Here is a link to the deployed application: https://bunde20.github.io/Horiseon-Boosts-Business/
