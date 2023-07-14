@@ -17,7 +17,6 @@ header {
     border-top: 10px solid cyan;
     width: 100%;
     display: flex;
-    /* justify-content: space-between; */
     align-items: center;
     color: cyan;
     position: relative;
@@ -106,7 +105,6 @@ h2 {
 
 /* About me section */
 #about-me {
-    /* background-color: lightblue; */
     display: flex;
     margin-left: 5%;
     margin-top: 3%;
@@ -170,45 +168,37 @@ h2 {
 #large-image {
     height: 500px;
     width: 92%;
-    /* width: 1120px; */
     object-fit: cover;
     object-position: top;
     margin-bottom: 20px;
 }
 
 #small-image {
-    /* flex-basis: 41.5%; */
     width: 41.5%;
     height: 200px;
     object-fit: cover;
 }
 
-#large-image:hover, #small-image:hover  {
+/* Hover settings for images */
+#large-image:hover, #small-image:hover {
     opacity: 1;
     border-color: rgba(45, 43, 43, 0.926);
     border-radius: 10px;
 }
 
-/* 
-@media only screen and (min-width: 640px) {
-    .grid-image {
-        flex-basis: 50%
-    }
-} */
+#large-image:hover, #small-image:hover + .hide {
+    opacity: 1;
+    border-color: rgba(45, 43, 43, 0.926);
+    border-radius: 10px;
+    display: block;
+    color: cyan;
+}
 
-/* .large-image-subtitle {
-    position: absolute;
-    height: 50px;
-    width: 150px;
-    top: 830px;
-    left: 460px;
-    background-color: cyan;
-    text-align: center;
-} */
-
+.hide {
+    display: none;
+} 
 
 /* Footer with contact me info */
-
 footer {
     display: flex;
     margin-left: 5%;
@@ -269,7 +259,7 @@ footer aside {
         min-width: 7 em;
         max-width: 7 em;
         display: flex;
-        background-color:  rgba(45, 43, 43, 0.926);;
+        /* background-color:  rgba(45, 43, 43, 0.926); */
     }
 
     #nav-bar ul {
@@ -278,7 +268,6 @@ footer aside {
         justify-content: center;
     }
     
-
     .image-grid img {
         flex-basis: 50%;
         max-width: 100%;
@@ -313,7 +302,7 @@ footer aside {
         max-width: 7 em;
         display: flex;
         justify-content: center;
-        background-color:  rgba(45, 43, 43, 0.926);;
+        background-color: rgba(45, 43, 43, 0.926);
     }
 
     #contact-me ul {
