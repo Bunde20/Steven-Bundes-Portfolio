@@ -4,7 +4,7 @@
 - An employer is intersted in hiring Steven Bunde for their programming team. Information about Steven along with any deployed applications are displayed on an organized webpage.
 
 ## Acceptance Criteria:
--The employer should be able to view information and previous projects.
+- The employer should be able to view information and previous projects.
     - To fulfill this, a webpage was created with links and information about Steven Bunde and his work.
 - Steven's name should be displayed, links should navigate to proper sections, and there should be a contact me section.
     - This was done by creating a navigation bar at the top of the screen including Steven's name and links to sections on the page. The very bottom of the screen includes contact information to get in touch with the devloper.
